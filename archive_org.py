@@ -1,6 +1,6 @@
 # encoding: UTF-8
 # VERSION: 0.9
-# AUTHORS: moveweight (https://github.com/moveweight)
+# AUTHORS: moveweight (https://github.com/moveweightllc)
 
 from novaprinter import prettyPrinter
 import urllib.parse
@@ -100,3 +100,4 @@ class archive_org(object):
             except Exception as e:
                 print(f"Archive.org plugin error: {str(e)}")
                 break
+
